@@ -37,7 +37,8 @@ to remove the entry from process table using a command wait() or waitpid(), rele
  ps aux --sort=%cpu = shows top CPU consuming procesess
  ps aux | grep [process name] = used to seach for a specific process
  ps -p [PID] = shows details of a process using PID
-4. grep -> used to search specific string or pattern and print the output   
+4. grep -> used to search specific string or pattern and print the output
+5. Find -> 
 
 
 
