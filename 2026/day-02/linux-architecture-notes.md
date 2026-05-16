@@ -38,7 +38,25 @@ to remove the entry from process table using a command wait() or waitpid(), rele
  ps aux | grep [process name] = used to seach for a specific process
  ps -p [PID] = shows details of a process using PID
 4. grep -> used to search specific string or pattern and print the output
-5. Find -> 
+   grep -e "error" -e "failed" log.txt -> -e is used to search multiple patterns at same time in a single file
+   grep -r -> searches all files in the directory and sub-directories as well
+   grep -n -> return each matching line with line no.
+   grep -c -> total no. of lines that matches the pattern
+   grep -i -> it searches case insensitive doesn't matter capital or small letters.
+5. Find -> used to search files and directories in a real time within file structure based on user defines criteria
+   filename, size, type, modification time
+   . -> current directory search
+   / -> root directory search
+
+   find . -name "log.txt"
+   find /var/log -type f - > It will list for all the files
+   find /var/log -type d -> It will list all the directories
+   find / -size +100M -> It will search all the files greater than 100 MB
+   find . mtime -7 -> it will all the files modfied in last 7 days
+   find .mmin 60 -> it will list all the files modified in last 60 mins
+6. locate -> this command is also used to search files but in a pre existing DB and not in a real time like 'find' command does.
+
+   
 
 
 
