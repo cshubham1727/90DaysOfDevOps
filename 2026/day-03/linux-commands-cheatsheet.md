@@ -1,4 +1,4 @@
-Process management
+1. **Process management**
 
 top -> to view real time CPU/Memory usage of process 
 M -> to sort by memory usage
@@ -39,8 +39,8 @@ lsof -i :8080 -> finds all the processes listening on port 8080
 nice -n 10 ./backup.sh -> it will move the backup job to priority 10
 renice -n 5 -p 123
 
-File system
-
+2. **File system**
+   
 df -h -> to know all the mount points and space used by them
 mkfs -> to format a disk
 mount -> to mount a file system
@@ -57,7 +57,7 @@ groupadd - to add a new group
 groupown - to change the owner of a group
 groupmod - to change the existing group 
 
-Networking troubleshooting
+3. **Networking troubleshooting**
 
 ipaddr -> to know ip address 
 ip a -> to know the ip address
@@ -72,7 +72,6 @@ nestat -s -> shows detailed protocal info - TCP, UDP, ICPM, IP
 nestat -c -> enables continious monitoring by refreshing the o/p every second.
 
 curl -> to test the connectivity for http/https endpoints
-
 curl -I http://google.com -> used to get the status code 
 
 ping -> to test the connectivity from host to another host (ICMP protocol)
@@ -87,15 +86,12 @@ traceroute google.com
 tcpdump -i etho -> 
 tcpdump -nn host 192.168.1.50 and port 443 -> here -n reduces noisy DNS resolutions
 
+telnet -> used to communicate with a remote host using telnet protocol
 
+telnet google.com 80 -> checking if port is open
+telnet mail.example.com 25 -> to test a mail server
 
+hostname -> to know the hostname
 
-
-
-
-ping -> to check if the server is responding
-telnet ->
-hostname ->
-curl ->
 nslookup ->
 
