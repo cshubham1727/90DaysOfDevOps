@@ -1,5 +1,5 @@
 Core Component of Linux:
-Kernel: Kernel is main core componenet and it acts as primary interface between hardware and software components
+Kernel: Kernel is main core component and it acts as primary interface between hardware and software components
 Shell: It is Command Line Interface that acts as interface between user and kernel
 User Space: It is a memory space where applications and background processes runs
 
