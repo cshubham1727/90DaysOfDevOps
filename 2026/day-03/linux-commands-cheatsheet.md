@@ -50,7 +50,7 @@ tail -> display few last lines of a file
 head -> display first few lines of a file
 diff -> compares the content of two files line by line to show differences
 chmod - change the permission of file/directory (read, write, execute)
-chown - change the owner of a file/group
+chown - change the owner of a file/directory
 usermod - to modify existing user account 
 useradd - to add a new user , use -m option to create a home directory
 groupadd - to add a new group
@@ -93,5 +93,4 @@ telnet mail.example.com 25 -> to test a mail server
 
 hostname -> to know the hostname
 
-nslookup ->
 
